@@ -1,4 +1,4 @@
-// this function basically creates a new script with different query values which will generate different results and when the hndlr would be called it will display the results
+
 
 function submit() {
   document.getElementById('buttons').style.display = 'block';
