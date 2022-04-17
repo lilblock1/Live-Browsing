@@ -3,7 +3,7 @@ function submit() {
   document.getElementById('content').innerHTML = '';
   var val = document.getElementById('search').value;
   var newelement = document.createElement('script');
-  newelement.src = `https://www.googleapis.com/customsearch/v1?key=AIzaSyB06Unrbi3Dh3LH-Hbgsdm7qd9HIDWj7gE&cx=partner-pub-6291336405621919:2662881632&q=${val}&callback=hndlr`;
+  newelement.src = `https://www.googleapis.com/customsearch/v1?key=AIzaSyB06Unrbi3Dh3LH-Hbgsdm7qd9HIDWj7gE&cx=partner-pub-3853029306847841:xz1zltlp4uh&q=${val}&callback=hndlr`;
   newelement.id = 'mainscript';
   document.body.appendChild(newelement);
 }
