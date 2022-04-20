@@ -18,7 +18,7 @@ async function submitImages() {
 
   var promise = await fetch(url);
   var data = await promise.json();
-  
+
   data.results.forEach(function(photo) {
     var result = `<img src=${photo.urls.regular} style="width: 200px; height: 133px; margin: 10px; vertical-align: top; object-fit: cover;">`;
     document.getElementById('content').innerHTML += result;
