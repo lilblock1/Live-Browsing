@@ -10,6 +10,8 @@ function submit() {
   document.body.appendChild(newelement);
 }
 
+<gcse:search webSearchResultSetSize=20></gcse:search>
+
 async function submitImages() {
   document.getElementById('content').innerHTML = '';
   var val = document.getElementById('search').value;
