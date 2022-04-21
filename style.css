@@ -2,6 +2,10 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+  background-color: #202731;
+}
+
 #content, #buttons {
   margin-left: 50px;
 }
@@ -10,4 +14,8 @@
   #content, #buttons {
     margin-left: 10px;
   }
+}
+
+button {
+  color: white;
 }
