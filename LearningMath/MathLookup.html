@@ -1,0 +1,24 @@
+
+<link href="MathLookup.css" rel="stylesheet" type="text/css" />
+
+<title>MathHelp</title>
+
+  <form onsubmit="unblock()">
+    <h1>Beta Website Unblocker</h1>
+    <input id="input" type="text">
+    <input type="submit" value="Unblock"></input>
+    </input>
+  </form>
+  <div class="footer">
+    <span>if this dose not work go to discord and join https://discord.gg/2JVX2dSg3p dm then dm lil_block#2275</span>
+  </div>
+
+  <script defer>
+    function unblock(){
+    let url = document.getElementById("input").value
+      console.log(url)
+    var win = window.open("https://translate.google.com/translate?sl=auto&tl=en&u=" + url, '_blank');
+    win.focus();
+    console.log(window.location)
+    }
+  </script>
