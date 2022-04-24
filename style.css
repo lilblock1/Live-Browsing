@@ -28,3 +28,6 @@ element {
 element::-webkit-scrollbar {
     display: none;
 }
+p{
+  color: white;
+}
