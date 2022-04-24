@@ -3,10 +3,10 @@
 
 <title>MathHelp</title>
 
-  <form onsubmit="unblock()">
+  <form onsubmit="math()">
     <h1>Beta Math</h1>
     <input id="input" type="text">
-    <input type="submit" value="Unblock"></input>
+    <input type="submit" value="Math"></input>
     </input>
   </form>
   <div class="footer">
@@ -14,7 +14,7 @@
   </div>
 
   <script defer>
-    function unblock(){
+    function math(){
     let url = document.getElementById("input").value
       console.log(url)
     var win = window.open("https://translate.google.com/translate?sl=auto&tl=en&u=" + url, '_blank');
