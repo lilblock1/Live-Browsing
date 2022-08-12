@@ -1,1 +1,11 @@
-<link rel="stylesheet" href="style.css"><div class = "link"><a href = "./pages/web/index.html">JavaScript          </a>          JavaScript is the scripting language for the web                    It is used user interaction and modify the Document when the document is...</div><br>
+<html>
+     <head>
+     
+     </head>
+     <body>
+          <form method="GET">
+               <input id = "abcd" placeholder = "Search" onload="this.value = window.location.href.replace('/lookfor/','').replace('127.0.0.1','')">
+               <button type="button" onclick="window.location = '/lookfor/'+document.getElementById('abcd').value">Search</button>
+          </form>
+     </body>
+</html>
