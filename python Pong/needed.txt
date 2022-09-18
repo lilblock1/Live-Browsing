@@ -1,0 +1,2 @@
+make sure to install pip install Kivy
+and you do need python installed
